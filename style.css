@@ -16,7 +16,7 @@
     background-color: cadetblue;
     margin-right: 10px;
     margin-bottom: 40px;
-    border: solid black 2px;
+    border: dashed black 2px;
  }
 
   main {
@@ -50,7 +50,7 @@
   }
 
   section {
-    border: solid black 2px;
+    border: dashed black 2px;
     margin: 10px;
     text-align: center;
   }
