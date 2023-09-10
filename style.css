@@ -1,7 +1,6 @@
   body {
     background-color: #00bfff;
     color: rgb(0,0,128);
-    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
  /* nav {
@@ -18,7 +17,6 @@
     margin-right: 10px;
     margin-bottom: 40px;
     border: solid black 2px;
-    
  }
 
   main {
@@ -34,8 +32,13 @@
 
   nav, aside {
     color: rgb(0,0,128);
+    font-family: "Sofia", sans-serif
   }
 
+  .fontsize {
+    font-size: 0.9em;
+    font-family: "Sofia", sans-serif
+  }
 
   a:visited {
     color: black;
@@ -54,6 +57,7 @@
 
   .box-shadow {
     box-shadow: 10px 10px lightcoral;
+    font-family: "Sofia", sans-serif
   }
 
   h1 {
@@ -66,6 +70,7 @@
   p {
     font-size: 0.9em;
     text-align: center;
+    font-family: "Sofia", sans-serif
   }
 
   span {
@@ -93,6 +98,7 @@
     text-align: center;
     text-shadow: 1.5px 1.5px lightcoral;
     padding-top: 20px;
+    font-family: "Sofia", sans-serif
   }
 
   h2 {
@@ -112,4 +118,8 @@
 
   #grad {
     background-image: linear-gradient(red, yellow, bisque);
+  }
+
+  footer {
+    font-family: "Sofia", sans-serif
   }
