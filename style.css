@@ -13,27 +13,30 @@
  .divedit {
     display: inline-block;
     width: 50%;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     margin-right: 10px;
     margin-bottom: 40px;
     border: dashed black 2px;
+    border-radius: 25px 50px;
  }
 
   main {
     display: inline-block;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     width: 40%;
     margin: auto;
   }
 
   aside {
     background-color: rgb(240,230,140);
+    border-radius: 25px 50px;
   }
 
   nav, aside {
     color: rgb(0,0,128);
     font-family: "Sofia", sans-serif
   }
+  
 
   .fontsize {
     font-size: 0.9em;
@@ -51,6 +54,7 @@
 
   section {
     border: dashed black 2px;
+    border-radius: 25px 50px;
     margin: 10px;
     text-align: center;
   }
